@@ -10,4 +10,4 @@
 /framework
 /testbox
 # H2 files
-**/.db
+**/*.db
