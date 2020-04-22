@@ -1,0 +1,11 @@
+04-21 14:33:36 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SHOW TABLES LIKE[*] USERS "; SQL statement:
+SHOW TABLES LIKE users [42000-172]
+04-21 14:33:46 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SHOW TABLES LIKE[*] 'users'"; SQL statement:
+SHOW TABLES LIKE 'users' [42000-172]
+04-21 14:34:37 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM INFORMATION_SCHEMA.TABLES
+WHERE TABLE_SCHEMA=DATABASE() AND TABLE_NAME=? 'users'"; SQL statement:
+SELECT * FROM INFORMATION_SCHEMA.TABLES
+WHERE TABLE_SCHEMA=DATABASE() AND TABLE_NAME=? 'users' [42000-172]

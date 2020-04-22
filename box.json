@@ -1,0 +1,23 @@
+{
+    "name":"fw1-cfmigrations-example",
+    "version":"0.1.0",
+    "author":"@tonyjunkes",
+    "shortDescription":"FW/1 & CFMigrations",
+    "description":"An example of using CFMigrations in an FW/1 application.",
+    "instructions":"Drop it in, fire up Commandbox, type install && start and go!",
+    "dependencies":{
+        "fw1":"be",
+        "cfmigrations":"^2.0.4"
+    },
+    "devDependencies":{
+        "testbox":"^3.2.0"
+    },
+    "installPaths":{
+        "fw1":"framework/",
+        "cfmigrations":"subsystems/cfmigrations/",
+        "testbox":"testbox/"
+    },
+    "testbox":{
+        "runner":"http://localhost:8520/tests/runner.cfm"
+    }
+}
