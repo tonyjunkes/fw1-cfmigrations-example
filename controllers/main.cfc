@@ -1,7 +1,6 @@
 component name="Main Controller" accessors=true
 	output=false
 {
-	property framework;
 	property MigrationService;
 
 	void function default( rc ) {
